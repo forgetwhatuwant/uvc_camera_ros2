@@ -1,0 +1,26 @@
+[2.091s] Invoking command in '/home/brl/ros2_ws/src/camera_recorder_ros': PS1=(torch) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/brl/ros2_ws/build/camera_recorder_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brl/ros2_ws/install/camera_recorder_ros/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(torch) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_recorder_ros build --build-base /home/brl/ros2_ws/build/camera_recorder_ros/build install --record /home/brl/ros2_ws/build/camera_recorder_ros/install.log --single-version-externally-managed install_data
+[2.552s] running egg_info
+[2.580s] writing ../../build/camera_recorder_ros/camera_recorder_ros.egg-info/PKG-INFO
+[2.581s] writing dependency_links to ../../build/camera_recorder_ros/camera_recorder_ros.egg-info/dependency_links.txt
+[2.581s] writing entry points to ../../build/camera_recorder_ros/camera_recorder_ros.egg-info/entry_points.txt
+[2.582s] writing requirements to ../../build/camera_recorder_ros/camera_recorder_ros.egg-info/requires.txt
+[2.582s] writing top-level names to ../../build/camera_recorder_ros/camera_recorder_ros.egg-info/top_level.txt
+[2.641s] reading manifest file '../../build/camera_recorder_ros/camera_recorder_ros.egg-info/SOURCES.txt'
+[2.642s] writing manifest file '../../build/camera_recorder_ros/camera_recorder_ros.egg-info/SOURCES.txt'
+[2.642s] running build
+[2.643s] running build_py
+[2.643s] copying camera_recorder_ros/camera_recorder_node.py -> /home/brl/ros2_ws/build/camera_recorder_ros/build/lib/camera_recorder_ros
+[2.643s] copying camera_recorder_ros/camera_recorder.py -> /home/brl/ros2_ws/build/camera_recorder_ros/build/lib/camera_recorder_ros
+[2.644s] copying camera_recorder_ros/__init__.py -> /home/brl/ros2_ws/build/camera_recorder_ros/build/lib/camera_recorder_ros
+[2.644s] running install
+[2.654s] running install_lib
+[2.685s] running install_data
+[2.685s] copying resource/camera_recorder_ros -> /home/brl/ros2_ws/install/camera_recorder_ros/share/ament_index/resource_index/packages
+[2.685s] copying package.xml -> /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros
+[2.686s] copying launch/camera_recorder.launch.py -> /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/launch
+[2.686s] running install_egg_info
+[2.715s] removing '/home/brl/ros2_ws/install/camera_recorder_ros/lib/python3.10/site-packages/camera_recorder_ros-0.1.0-py3.10.egg-info' (and everything under it)
+[2.716s] Copying ../../build/camera_recorder_ros/camera_recorder_ros.egg-info to /home/brl/ros2_ws/install/camera_recorder_ros/lib/python3.10/site-packages/camera_recorder_ros-0.1.0-py3.10.egg-info
+[2.717s] running install_scripts
+[2.966s] Installing camera_recorder_node script to /home/brl/ros2_ws/install/camera_recorder_ros/lib/camera_recorder_ros
+[2.967s] writing list of installed files to '/home/brl/ros2_ws/build/camera_recorder_ros/install.log'

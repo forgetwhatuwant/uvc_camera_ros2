@@ -1,0 +1,43 @@
+[2.125s] Invoking command in '/home/brl/ros2_ws/src/uvc_camera_ros2': PS1=(torch) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/brl/ros2_ws/build/uvc_camera_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brl/ros2_ws/install/uvc_camera_ros2/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(torch) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/uvc_camera_ros2 build --build-base /home/brl/ros2_ws/build/uvc_camera_ros2/build install --record /home/brl/ros2_ws/build/uvc_camera_ros2/install.log --single-version-externally-managed install_data
+[2.537s] running egg_info
+[2.537s] creating ../../build/uvc_camera_ros2/uvc_camera_ros2.egg-info
+[2.563s] writing ../../build/uvc_camera_ros2/uvc_camera_ros2.egg-info/PKG-INFO
+[2.564s] writing dependency_links to ../../build/uvc_camera_ros2/uvc_camera_ros2.egg-info/dependency_links.txt
+[2.565s] writing entry points to ../../build/uvc_camera_ros2/uvc_camera_ros2.egg-info/entry_points.txt
+[2.565s] writing requirements to ../../build/uvc_camera_ros2/uvc_camera_ros2.egg-info/requires.txt
+[2.565s] writing top-level names to ../../build/uvc_camera_ros2/uvc_camera_ros2.egg-info/top_level.txt
+[2.565s] writing manifest file '../../build/uvc_camera_ros2/uvc_camera_ros2.egg-info/SOURCES.txt'
+[2.620s] reading manifest file '../../build/uvc_camera_ros2/uvc_camera_ros2.egg-info/SOURCES.txt'
+[2.621s] writing manifest file '../../build/uvc_camera_ros2/uvc_camera_ros2.egg-info/SOURCES.txt'
+[2.621s] running build
+[2.621s] running build_py
+[2.622s] creating /home/brl/ros2_ws/build/uvc_camera_ros2/build
+[2.622s] creating /home/brl/ros2_ws/build/uvc_camera_ros2/build/lib
+[2.622s] creating /home/brl/ros2_ws/build/uvc_camera_ros2/build/lib/uvc_camera_ros2
+[2.622s] copying uvc_camera_ros2/camera_recorder_node.py -> /home/brl/ros2_ws/build/uvc_camera_ros2/build/lib/uvc_camera_ros2
+[2.623s] copying uvc_camera_ros2/camera_recorder.py -> /home/brl/ros2_ws/build/uvc_camera_ros2/build/lib/uvc_camera_ros2
+[2.623s] copying uvc_camera_ros2/__init__.py -> /home/brl/ros2_ws/build/uvc_camera_ros2/build/lib/uvc_camera_ros2
+[2.623s] running install
+[2.633s] running install_lib
+[2.660s] creating /home/brl/ros2_ws/install/uvc_camera_ros2/lib/python3.10/site-packages/uvc_camera_ros2
+[2.660s] copying /home/brl/ros2_ws/build/uvc_camera_ros2/build/lib/uvc_camera_ros2/camera_recorder_node.py -> /home/brl/ros2_ws/install/uvc_camera_ros2/lib/python3.10/site-packages/uvc_camera_ros2
+[2.660s] copying /home/brl/ros2_ws/build/uvc_camera_ros2/build/lib/uvc_camera_ros2/camera_recorder.py -> /home/brl/ros2_ws/install/uvc_camera_ros2/lib/python3.10/site-packages/uvc_camera_ros2
+[2.661s] copying /home/brl/ros2_ws/build/uvc_camera_ros2/build/lib/uvc_camera_ros2/__init__.py -> /home/brl/ros2_ws/install/uvc_camera_ros2/lib/python3.10/site-packages/uvc_camera_ros2
+[2.662s] byte-compiling /home/brl/ros2_ws/install/uvc_camera_ros2/lib/python3.10/site-packages/uvc_camera_ros2/camera_recorder_node.py to camera_recorder_node.cpython-310.pyc
+[2.666s] byte-compiling /home/brl/ros2_ws/install/uvc_camera_ros2/lib/python3.10/site-packages/uvc_camera_ros2/camera_recorder.py to camera_recorder.cpython-310.pyc
+[2.671s] byte-compiling /home/brl/ros2_ws/install/uvc_camera_ros2/lib/python3.10/site-packages/uvc_camera_ros2/__init__.py to __init__.cpython-310.pyc
+[2.671s] running install_data
+[2.671s] creating /home/brl/ros2_ws/install/uvc_camera_ros2/share
+[2.672s] creating /home/brl/ros2_ws/install/uvc_camera_ros2/share/ament_index
+[2.672s] creating /home/brl/ros2_ws/install/uvc_camera_ros2/share/ament_index/resource_index
+[2.672s] creating /home/brl/ros2_ws/install/uvc_camera_ros2/share/ament_index/resource_index/packages
+[2.672s] copying resource/uvc_camera_ros2 -> /home/brl/ros2_ws/install/uvc_camera_ros2/share/ament_index/resource_index/packages
+[2.672s] creating /home/brl/ros2_ws/install/uvc_camera_ros2/share/uvc_camera_ros2
+[2.672s] copying package.xml -> /home/brl/ros2_ws/install/uvc_camera_ros2/share/uvc_camera_ros2
+[2.673s] creating /home/brl/ros2_ws/install/uvc_camera_ros2/share/uvc_camera_ros2/launch
+[2.673s] copying launch/camera_recorder.launch.py -> /home/brl/ros2_ws/install/uvc_camera_ros2/share/uvc_camera_ros2/launch
+[2.673s] running install_egg_info
+[2.703s] Copying ../../build/uvc_camera_ros2/uvc_camera_ros2.egg-info to /home/brl/ros2_ws/install/uvc_camera_ros2/lib/python3.10/site-packages/uvc_camera_ros2-0.1.0-py3.10.egg-info
+[2.704s] running install_scripts
+[2.943s] Installing uvc_camera_node script to /home/brl/ros2_ws/install/uvc_camera_ros2/bin
+[2.944s] writing list of installed files to '/home/brl/ros2_ws/build/uvc_camera_ros2/install.log'

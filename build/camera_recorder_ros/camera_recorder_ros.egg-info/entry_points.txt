@@ -1,0 +1,3 @@
+[console_scripts]
+camera_recorder_node = camera_recorder_ros.camera_recorder_node:main
+camera_recorder_service_node = camera_recorder_ros.camera_recorder_service_node:main

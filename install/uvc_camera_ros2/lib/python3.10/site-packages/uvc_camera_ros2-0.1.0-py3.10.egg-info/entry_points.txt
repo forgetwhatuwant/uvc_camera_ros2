@@ -1,0 +1,2 @@
+[console_scripts]
+uvc_camera_node = uvc_camera_ros2.camera_recorder_node:main

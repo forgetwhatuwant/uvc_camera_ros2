@@ -1,0 +1,2 @@
+[console_scripts]
+camera_recorder_node = camera_recorder.camera_recorder_node:main

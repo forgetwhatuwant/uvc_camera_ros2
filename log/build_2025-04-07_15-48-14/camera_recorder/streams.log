@@ -1,0 +1,19 @@
+[2.092s] Invoking command in '/home/brl/ros2_ws/src/camera_recorder': PS1=(torch) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/brl/ros2_ws/build/camera_recorder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brl/ros2_ws/install/camera_recorder/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(torch) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_recorder build --build-base /home/brl/ros2_ws/build/camera_recorder/build install --record /home/brl/ros2_ws/build/camera_recorder/install.log --single-version-externally-managed install_data
+[2.526s] running egg_info
+[2.554s] writing ../../build/camera_recorder/camera_recorder.egg-info/PKG-INFO
+[2.555s] writing dependency_links to ../../build/camera_recorder/camera_recorder.egg-info/dependency_links.txt
+[2.555s] writing entry points to ../../build/camera_recorder/camera_recorder.egg-info/entry_points.txt
+[2.556s] writing requirements to ../../build/camera_recorder/camera_recorder.egg-info/requires.txt
+[2.556s] writing top-level names to ../../build/camera_recorder/camera_recorder.egg-info/top_level.txt
+[2.611s] reading manifest file '../../build/camera_recorder/camera_recorder.egg-info/SOURCES.txt'
+[2.613s] writing manifest file '../../build/camera_recorder/camera_recorder.egg-info/SOURCES.txt'
+[2.613s] running build
+[2.613s] running build_py
+[2.613s] copying camera_recorder/camera_recorder_node.py -> /home/brl/ros2_ws/build/camera_recorder/build/lib/camera_recorder
+[2.614s] copying camera_recorder/camera_recorder.py -> /home/brl/ros2_ws/build/camera_recorder/build/lib/camera_recorder
+[2.614s] copying camera_recorder/__init__.py -> /home/brl/ros2_ws/build/camera_recorder/build/lib/camera_recorder
+[2.615s] running install
+[2.624s] running install_lib
+[2.652s] running install_data
+[2.653s] error: can't copy 'resource/camera_recorder': doesn't exist or not a regular file
+[2.712s] Invoked command in '/home/brl/ros2_ws/src/camera_recorder' returned '1': PS1=(torch) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/brl/ros2_ws/build/camera_recorder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brl/ros2_ws/install/camera_recorder/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(torch) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_recorder build --build-base /home/brl/ros2_ws/build/camera_recorder/build install --record /home/brl/ros2_ws/build/camera_recorder/install.log --single-version-externally-managed install_data

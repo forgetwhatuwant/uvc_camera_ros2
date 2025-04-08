@@ -1,0 +1,323 @@
+[0.000000] (-) TimerEvent: {}
+[0.000485] (camera_recorder_ros) JobQueued: {'identifier': 'camera_recorder_ros', 'dependencies': OrderedDict()}
+[0.001225] (camera_recorder_ros) JobStarted: {'identifier': 'camera_recorder_ros'}
+[0.013938] (camera_recorder_ros) JobProgress: {'identifier': 'camera_recorder_ros', 'progress': 'cmake'}
+[0.014399] (camera_recorder_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/brl/ros2_ws/src/camera_recorder_ros', '-DCMAKE_INSTALL_PREFIX=/home/brl/ros2_ws/install/camera_recorder_ros'], 'cwd': '/home/brl/ros2_ws/build/camera_recorder_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'brl'), ('SSH_CLIENT', '192.168.3.69 60974 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/brl/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/brl/ros2_ws/install/camera_recorder_ros/lib:/usr/local/cuda-12.2/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:'), ('BROWSER', '/home/brl/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/brl'), ('TERM_PROGRAM_VERSION', '0.48.7'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-55bdb230-eb96-46e3-95fd-80cf5eaf8a86.sock'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/brl/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/extensions/git/dist/askpass-main.js'), ('PS1', '(torch) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/brl/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/node'), ('LC_CTYPE', 'UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/brl/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'brl'), ('JETSON_MODULE', 'NVIDIA Jetson Orin NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1420424254349'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '238'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/brl/ros2_ws/install/camera_recorder/bin:/home/brl/.local/bin:/home/brl/codes/torch/bin:/usr/local/cuda-12.2/bin:/home/brl/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/bin/remote-cli:/home/brl/.local/bin:/home/brl/codes/torch/bin:/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/brl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('VIRTUAL_ENV_PROMPT', '(torch)'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-247e0c9833.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/brl/ros2_ws/install/camera_recorder_ros:/home/brl/ros2_ws/install/camera_recorder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('GST_PLUGIN_PATH', '/usr/lib/aarch64-linux-gnu/gstreamer-1.0/'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VIRTUAL_ENV', '/home/brl/codes/torch'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/brl/ros2_ws/build/camera_recorder_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.3.69 60974 192.168.3.153 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages:/home/brl/ros2_ws/install/camera_recorder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/brl/ros2_ws/install/camera_recorder_ros:/home/brl/ros2_ws/install/camera_recorder:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0000')]), 'shell': False}
+[0.099362] (-) TimerEvent: {}
+[0.109970] (camera_recorder_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199615] (-) TimerEvent: {}
+[0.223371] (camera_recorder_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.237368] (camera_recorder_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299779] (-) TimerEvent: {}
+[0.370886] (camera_recorder_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.380540] (camera_recorder_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.381047] (camera_recorder_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.381479] (camera_recorder_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.386276] (camera_recorder_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399951] (-) TimerEvent: {}
+[0.500620] (-) TimerEvent: {}
+[0.532915] (camera_recorder_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.542973] (camera_recorder_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.543644] (camera_recorder_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.544055] (camera_recorder_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.548168] (camera_recorder_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600729] (-) TimerEvent: {}
+[0.701367] (-) TimerEvent: {}
+[0.802029] (-) TimerEvent: {}
+[0.902655] (-) TimerEvent: {}
+[1.003393] (-) TimerEvent: {}
+[1.104151] (-) TimerEvent: {}
+[1.204837] (-) TimerEvent: {}
+[1.265773] (camera_recorder_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.304972] (-) TimerEvent: {}
+[1.405587] (-) TimerEvent: {}
+[1.429303] (camera_recorder_ros) StdoutLine: {'line': b'-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.431208] (camera_recorder_ros) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.500181] (camera_recorder_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.504416] (camera_recorder_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.505641] (-) TimerEvent: {}
+[1.517624] (camera_recorder_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.538939] (camera_recorder_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.567463] (camera_recorder_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.605838] (-) TimerEvent: {}
+[1.652486] (camera_recorder_ros) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.678312] (camera_recorder_ros) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.692081] (camera_recorder_ros) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.706020] (-) TimerEvent: {}
+[1.806687] (-) TimerEvent: {}
+[1.907318] (-) TimerEvent: {}
+[2.007915] (-) TimerEvent: {}
+[2.108627] (-) TimerEvent: {}
+[2.209421] (-) TimerEvent: {}
+[2.210540] (camera_recorder_ros) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.309592] (-) TimerEvent: {}
+[2.410325] (-) TimerEvent: {}
+[2.510944] (-) TimerEvent: {}
+[2.611616] (-) TimerEvent: {}
+[2.712334] (-) TimerEvent: {}
+[2.813037] (-) TimerEvent: {}
+[2.913785] (-) TimerEvent: {}
+[2.988498] (camera_recorder_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.013927] (-) TimerEvent: {}
+[3.114600] (-) TimerEvent: {}
+[3.215363] (-) TimerEvent: {}
+[3.316003] (-) TimerEvent: {}
+[3.316573] (camera_recorder_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.362788] (camera_recorder_ros) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.416218] (-) TimerEvent: {}
+[3.420006] (camera_recorder_ros) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.420700] (camera_recorder_ros) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.421008] (camera_recorder_ros) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.421272] (camera_recorder_ros) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[3.466095] (camera_recorder_ros) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.516370] (-) TimerEvent: {}
+[3.589869] (camera_recorder_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.616455] (-) TimerEvent: {}
+[3.646300] (camera_recorder_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[3.650377] (camera_recorder_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/brl/ros2_ws/build/camera_recorder_ros\n'}
+[3.667290] (camera_recorder_ros) CommandEnded: {'returncode': 0}
+[3.668582] (camera_recorder_ros) JobProgress: {'identifier': 'camera_recorder_ros', 'progress': 'build'}
+[3.670231] (camera_recorder_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/brl/ros2_ws/build/camera_recorder_ros', '--', '-j8', '-l8'], 'cwd': '/home/brl/ros2_ws/build/camera_recorder_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'brl'), ('SSH_CLIENT', '192.168.3.69 60974 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/brl/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/brl/ros2_ws/install/camera_recorder_ros/lib:/usr/local/cuda-12.2/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:'), ('BROWSER', '/home/brl/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/brl'), ('TERM_PROGRAM_VERSION', '0.48.7'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-55bdb230-eb96-46e3-95fd-80cf5eaf8a86.sock'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/brl/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/extensions/git/dist/askpass-main.js'), ('PS1', '(torch) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/brl/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/node'), ('LC_CTYPE', 'UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/brl/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'brl'), ('JETSON_MODULE', 'NVIDIA Jetson Orin NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1420424254349'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '238'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/brl/ros2_ws/install/camera_recorder/bin:/home/brl/.local/bin:/home/brl/codes/torch/bin:/usr/local/cuda-12.2/bin:/home/brl/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/bin/remote-cli:/home/brl/.local/bin:/home/brl/codes/torch/bin:/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/brl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('VIRTUAL_ENV_PROMPT', '(torch)'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-247e0c9833.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/brl/ros2_ws/install/camera_recorder_ros:/home/brl/ros2_ws/install/camera_recorder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('GST_PLUGIN_PATH', '/usr/lib/aarch64-linux-gnu/gstreamer-1.0/'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VIRTUAL_ENV', '/home/brl/codes/torch'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/brl/ros2_ws/build/camera_recorder_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.3.69 60974 192.168.3.153 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages:/home/brl/ros2_ws/install/camera_recorder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/brl/ros2_ws/install/camera_recorder_ros:/home/brl/ros2_ws/install/camera_recorder:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0000')]), 'shell': False}
+[3.716633] (-) TimerEvent: {}
+[3.747516] (camera_recorder_ros) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.767205] (camera_recorder_ros) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.784374] (camera_recorder_ros) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_camera_recorder_ros\n'}
+[3.816765] (-) TimerEvent: {}
+[3.917367] (-) TimerEvent: {}
+[4.018000] (-) TimerEvent: {}
+[4.118616] (-) TimerEvent: {}
+[4.151185] (camera_recorder_ros) StdoutLine: {'line': b'running egg_info\n'}
+[4.153003] (camera_recorder_ros) StdoutLine: {'line': b'creating camera_recorder_ros.egg-info\n'}
+[4.180605] (camera_recorder_ros) StdoutLine: {'line': b'writing camera_recorder_ros.egg-info/PKG-INFO\n'}
+[4.181423] (camera_recorder_ros) StdoutLine: {'line': b'writing dependency_links to camera_recorder_ros.egg-info/dependency_links.txt\n'}
+[4.182028] (camera_recorder_ros) StdoutLine: {'line': b'writing top-level names to camera_recorder_ros.egg-info/top_level.txt\n'}
+[4.182338] (camera_recorder_ros) StdoutLine: {'line': b"writing manifest file 'camera_recorder_ros.egg-info/SOURCES.txt'\n"}
+[4.218766] (-) TimerEvent: {}
+[4.227722] (camera_recorder_ros) StdoutLine: {'line': b'[  6%] Built target camera_recorder_ros__cpp\n'}
+[4.228333] (camera_recorder_ros) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/camera_recorder_ros__rosidl_generator_c.dir/rosidl_generator_c/camera_recorder_ros/srv/detail/start_recording__functions.c.o\x1b[0m\n'}
+[4.246830] (camera_recorder_ros) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.247466] (camera_recorder_ros) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.248350] (camera_recorder_ros) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.268244] (camera_recorder_ros) StdoutLine: {'line': b"reading manifest file 'camera_recorder_ros.egg-info/SOURCES.txt'\n"}
+[4.269596] (camera_recorder_ros) StdoutLine: {'line': b"writing manifest file 'camera_recorder_ros.egg-info/SOURCES.txt'\n"}
+[4.318952] (-) TimerEvent: {}
+[4.351161] (camera_recorder_ros) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libcamera_recorder_ros__rosidl_generator_c.so\x1b[0m\n'}
+[4.363081] (camera_recorder_ros) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_build_camera_recorder_ros_egg\n'}
+[4.411421] (camera_recorder_ros) StdoutLine: {'line': b'[ 22%] Built target camera_recorder_ros__rosidl_generator_c\n'}
+[4.419164] (-) TimerEvent: {}
+[4.429400] (camera_recorder_ros) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.429858] (camera_recorder_ros) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.430000] (camera_recorder_ros) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.519303] (-) TimerEvent: {}
+[4.619947] (-) TimerEvent: {}
+[4.705353] (camera_recorder_ros) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/camera_recorder_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/camera_recorder_ros/srv/detail/start_recording__type_support.cpp.o\x1b[0m\n'}
+[4.705817] (camera_recorder_ros) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/camera_recorder_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/camera_recorder_ros/srv/start_recording__type_support.cpp.o\x1b[0m\n'}
+[4.720123] (-) TimerEvent: {}
+[4.728328] (camera_recorder_ros) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/camera_recorder_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/camera_recorder_ros/srv/detail/dds_fastrtps/start_recording__type_support.cpp.o\x1b[0m\n'}
+[4.820322] (-) TimerEvent: {}
+[4.857166] (camera_recorder_ros) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/camera_recorder_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/camera_recorder_ros/srv/start_recording__type_support.cpp.o\x1b[0m\n'}
+[4.912407] (camera_recorder_ros) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/camera_recorder_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/camera_recorder_ros/srv/detail/start_recording__type_support.c.o\x1b[0m\n'}
+[4.914879] (camera_recorder_ros) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/camera_recorder_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/camera_recorder_ros/srv/detail/start_recording__type_support_c.cpp.o\x1b[0m\n'}
+[4.920506] (-) TimerEvent: {}
+[4.926018] (camera_recorder_ros) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_recorder_ros__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.001392] (camera_recorder_ros) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libcamera_recorder_ros__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.007605] (camera_recorder_ros) StdoutLine: {'line': b'[ 58%] Built target camera_recorder_ros__rosidl_typesupport_c\n'}
+[5.020698] (-) TimerEvent: {}
+[5.068476] (camera_recorder_ros) StdoutLine: {'line': b'[ 58%] Built target camera_recorder_ros__rosidl_typesupport_introspection_c\n'}
+[5.120893] (-) TimerEvent: {}
+[5.203727] (camera_recorder_ros) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_recorder_ros__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.221080] (-) TimerEvent: {}
+[5.271212] (camera_recorder_ros) StdoutLine: {'line': b'[ 61%] Built target camera_recorder_ros__rosidl_typesupport_cpp\n'}
+[5.321250] (-) TimerEvent: {}
+[5.421874] (-) TimerEvent: {}
+[5.486660] (camera_recorder_ros) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_recorder_ros__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.522043] (-) TimerEvent: {}
+[5.582861] (camera_recorder_ros) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_recorder_ros__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.597961] (camera_recorder_ros) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_recorder_ros__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.622245] (-) TimerEvent: {}
+[5.630733] (camera_recorder_ros) StdoutLine: {'line': b'[ 70%] Built target camera_recorder_ros__rosidl_typesupport_introspection_cpp\n'}
+[5.722418] (-) TimerEvent: {}
+[5.723754] (camera_recorder_ros) StdoutLine: {'line': b'[ 70%] Built target camera_recorder_ros__rosidl_typesupport_fastrtps_c\n'}
+[5.743859] (camera_recorder_ros) StdoutLine: {'line': b'[ 70%] Built target camera_recorder_ros__rosidl_typesupport_fastrtps_cpp\n'}
+[5.786327] (camera_recorder_ros) StdoutLine: {'line': b'[ 70%] Built target camera_recorder_ros\n'}
+[5.822597] (-) TimerEvent: {}
+[5.825307] (camera_recorder_ros) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.922720] (-) TimerEvent: {}
+[6.023299] (-) TimerEvent: {}
+[6.123856] (-) TimerEvent: {}
+[6.224382] (-) TimerEvent: {}
+[6.324922] (-) TimerEvent: {}
+[6.391917] (camera_recorder_ros) StdoutLine: {'line': b'[ 74%] Built target camera_recorder_ros__py\n'}
+[6.425124] (-) TimerEvent: {}
+[6.435750] (camera_recorder_ros) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/camera_recorder_ros__rosidl_generator_py.dir/rosidl_generator_py/camera_recorder_ros/srv/_start_recording_s.c.o\x1b[0m\n'}
+[6.525290] (-) TimerEvent: {}
+[6.625946] (-) TimerEvent: {}
+[6.645953] (camera_recorder_ros) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/camera_recorder_ros/libcamera_recorder_ros__rosidl_generator_py.so\x1b[0m\n'}
+[6.724545] (camera_recorder_ros) StdoutLine: {'line': b'[ 80%] Built target camera_recorder_ros__rosidl_generator_py\n'}
+[6.726209] (-) TimerEvent: {}
+[6.762917] (camera_recorder_ros) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/camera_recorder_ros__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/camera_recorder_ros/_camera_recorder_ros_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.763496] (camera_recorder_ros) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/camera_recorder_ros__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/camera_recorder_ros/_camera_recorder_ros_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.763750] (camera_recorder_ros) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/camera_recorder_ros__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/camera_recorder_ros/_camera_recorder_ros_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.826403] (-) TimerEvent: {}
+[6.927111] (-) TimerEvent: {}
+[6.934274] (camera_recorder_ros) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/camera_recorder_ros/camera_recorder_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[6.934774] (camera_recorder_ros) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/camera_recorder_ros/camera_recorder_ros_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[6.942894] (camera_recorder_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/camera_recorder_ros/camera_recorder_ros_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[7.005658] (camera_recorder_ros) StdoutLine: {'line': b'[100%] Built target camera_recorder_ros__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.006194] (camera_recorder_ros) StdoutLine: {'line': b'[100%] Built target camera_recorder_ros__rosidl_typesupport_c__pyext\n'}
+[7.013287] (camera_recorder_ros) StdoutLine: {'line': b'[100%] Built target camera_recorder_ros__rosidl_typesupport_introspection_c__pyext\n'}
+[7.027224] (-) TimerEvent: {}
+[7.039881] (camera_recorder_ros) CommandEnded: {'returncode': 0}
+[7.127379] (-) TimerEvent: {}
+[7.151069] (camera_recorder_ros) JobProgress: {'identifier': 'camera_recorder_ros', 'progress': 'install'}
+[7.170694] (camera_recorder_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/brl/ros2_ws/build/camera_recorder_ros'], 'cwd': '/home/brl/ros2_ws/build/camera_recorder_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'brl'), ('SSH_CLIENT', '192.168.3.69 60974 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/brl/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/brl/ros2_ws/install/camera_recorder_ros/lib:/usr/local/cuda-12.2/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:'), ('BROWSER', '/home/brl/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/brl'), ('TERM_PROGRAM_VERSION', '0.48.7'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-55bdb230-eb96-46e3-95fd-80cf5eaf8a86.sock'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/brl/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/extensions/git/dist/askpass-main.js'), ('PS1', '(torch) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/brl/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/node'), ('LC_CTYPE', 'UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/brl/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'brl'), ('JETSON_MODULE', 'NVIDIA Jetson Orin NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1420424254349'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '238'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/brl/ros2_ws/install/camera_recorder/bin:/home/brl/.local/bin:/home/brl/codes/torch/bin:/usr/local/cuda-12.2/bin:/home/brl/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/bin/remote-cli:/home/brl/.local/bin:/home/brl/codes/torch/bin:/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/brl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('VIRTUAL_ENV_PROMPT', '(torch)'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-247e0c9833.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/brl/ros2_ws/install/camera_recorder_ros:/home/brl/ros2_ws/install/camera_recorder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('GST_PLUGIN_PATH', '/usr/lib/aarch64-linux-gnu/gstreamer-1.0/'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VIRTUAL_ENV', '/home/brl/codes/torch'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/brl/ros2_ws/build/camera_recorder_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.3.69 60974 192.168.3.153 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages:/home/brl/ros2_ws/install/camera_recorder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/brl/ros2_ws/install/camera_recorder_ros:/home/brl/ros2_ws/install/camera_recorder:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0000')]), 'shell': False}
+[7.190884] (camera_recorder_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.191443] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/ament_index/resource_index/rosidl_interfaces/camera_recorder_ros\n'}
+[7.191721] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros\n'}
+[7.191999] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/msg\n'}
+[7.192276] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.192526] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv\n'}
+[7.192787] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/start_recording.h\n'}
+[7.192994] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/detail\n'}
+[7.193262] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/detail/start_recording__type_support.h\n'}
+[7.193500] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/detail/start_recording__functions.h\n'}
+[7.193703] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/detail/start_recording__struct.h\n'}
+[7.193988] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/detail/start_recording__functions.c\n'}
+[7.194205] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/environment/library_path.sh\n'}
+[7.194446] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/environment/library_path.dsv\n'}
+[7.194649] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/lib/libcamera_recorder_ros__rosidl_generator_c.so\n'}
+[7.194883] (camera_recorder_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/brl/ros2_ws/install/camera_recorder_ros/lib/libcamera_recorder_ros__rosidl_generator_c.so" to ""\n'}
+[7.195199] (camera_recorder_ros) StdoutLine: {'line': b'-- Up-to-date: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros\n'}
+[7.195482] (camera_recorder_ros) StdoutLine: {'line': b'-- Up-to-date: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/msg\n'}
+[7.195685] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.195947] (camera_recorder_ros) StdoutLine: {'line': b'-- Up-to-date: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv\n'}
+[7.196189] (camera_recorder_ros) StdoutLine: {'line': b'-- Up-to-date: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/detail\n'}
+[7.196354] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/detail/start_recording__rosidl_typesupport_fastrtps_c.h\n'}
+[7.196546] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/lib/libcamera_recorder_ros__rosidl_typesupport_fastrtps_c.so\n'}
+[7.197025] (camera_recorder_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/brl/ros2_ws/install/camera_recorder_ros/lib/libcamera_recorder_ros__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.197255] (camera_recorder_ros) StdoutLine: {'line': b'-- Up-to-date: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros\n'}
+[7.197452] (camera_recorder_ros) StdoutLine: {'line': b'-- Up-to-date: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv\n'}
+[7.197658] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/start_recording.hpp\n'}
+[7.197852] (camera_recorder_ros) StdoutLine: {'line': b'-- Up-to-date: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/detail\n'}
+[7.198041] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/detail/start_recording__builder.hpp\n'}
+[7.198204] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/detail/start_recording__struct.hpp\n'}
+[7.198439] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/detail/start_recording__traits.hpp\n'}
+[7.198660] (camera_recorder_ros) StdoutLine: {'line': b'-- Up-to-date: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros\n'}
+[7.198821] (camera_recorder_ros) StdoutLine: {'line': b'-- Up-to-date: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/msg\n'}
+[7.199025] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.199243] (camera_recorder_ros) StdoutLine: {'line': b'-- Up-to-date: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv\n'}
+[7.199440] (camera_recorder_ros) StdoutLine: {'line': b'-- Up-to-date: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/detail\n'}
+[7.199651] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/detail/dds_fastrtps\n'}
+[7.199828] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/detail/start_recording__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.200017] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/lib/libcamera_recorder_ros__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.200243] (camera_recorder_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/brl/ros2_ws/install/camera_recorder_ros/lib/libcamera_recorder_ros__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.200491] (camera_recorder_ros) StdoutLine: {'line': b'-- Up-to-date: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros\n'}
+[7.200740] (camera_recorder_ros) StdoutLine: {'line': b'-- Up-to-date: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/msg\n'}
+[7.200992] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.201214] (camera_recorder_ros) StdoutLine: {'line': b'-- Up-to-date: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv\n'}
+[7.201384] (camera_recorder_ros) StdoutLine: {'line': b'-- Up-to-date: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/detail\n'}
+[7.201586] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/detail/start_recording__rosidl_typesupport_introspection_c.h\n'}
+[7.201791] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/detail/start_recording__type_support.c\n'}
+[7.201958] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/lib/libcamera_recorder_ros__rosidl_typesupport_introspection_c.so\n'}
+[7.202248] (camera_recorder_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/brl/ros2_ws/install/camera_recorder_ros/lib/libcamera_recorder_ros__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.202422] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/lib/libcamera_recorder_ros__rosidl_typesupport_c.so\n'}
+[7.202620] (camera_recorder_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/brl/ros2_ws/install/camera_recorder_ros/lib/libcamera_recorder_ros__rosidl_typesupport_c.so" to ""\n'}
+[7.202825] (camera_recorder_ros) StdoutLine: {'line': b'-- Up-to-date: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros\n'}
+[7.203041] (camera_recorder_ros) StdoutLine: {'line': b'-- Up-to-date: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv\n'}
+[7.203226] (camera_recorder_ros) StdoutLine: {'line': b'-- Up-to-date: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/detail\n'}
+[7.203403] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/detail/start_recording__type_support.cpp\n'}
+[7.203874] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/include/camera_recorder_ros/camera_recorder_ros/srv/detail/start_recording__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.204103] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/lib/libcamera_recorder_ros__rosidl_typesupport_introspection_cpp.so\n'}
+[7.204405] (camera_recorder_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/brl/ros2_ws/install/camera_recorder_ros/lib/libcamera_recorder_ros__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.204669] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/lib/libcamera_recorder_ros__rosidl_typesupport_cpp.so\n'}
+[7.204932] (camera_recorder_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/brl/ros2_ws/install/camera_recorder_ros/lib/libcamera_recorder_ros__rosidl_typesupport_cpp.so" to ""\n'}
+[7.205217] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/environment/pythonpath.sh\n'}
+[7.205504] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/environment/pythonpath.dsv\n'}
+[7.205774] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros-0.1.0-py3.10.egg-info\n'}
+[7.206065] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.206324] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.206647] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[7.206922] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[7.207328] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros\n'}
+[7.207617] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/_camera_recorder_ros_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.207927] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/libcamera_recorder_ros__rosidl_generator_py.so\n'}
+[7.208225] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/_camera_recorder_ros_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.208464] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/camera_recorder_ros_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.208698] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/camera_recorder_ros_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.208929] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/__init__.py\n'}
+[7.209158] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/srv\n'}
+[7.209386] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/srv/_start_recording_s.c\n'}
+[7.209612] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/srv/_start_recording.py\n'}
+[7.209836] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/srv/__init__.py\n'}
+[7.210060] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/_camera_recorder_ros_s.ep.rosidl_typesupport_c.c\n'}
+[7.210499] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/camera_recorder_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.227477] (-) TimerEvent: {}
+[7.269182] (camera_recorder_ros) StdoutLine: {'line': b"Listing '/home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros'...\n"}
+[7.269818] (camera_recorder_ros) StdoutLine: {'line': b"Compiling '/home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/__init__.py'...\n"}
+[7.270094] (camera_recorder_ros) StdoutLine: {'line': b"Listing '/home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/srv'...\n"}
+[7.270333] (camera_recorder_ros) StdoutLine: {'line': b"Compiling '/home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/srv/__init__.py'...\n"}
+[7.270559] (camera_recorder_ros) StdoutLine: {'line': b"Compiling '/home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/srv/_start_recording.py'...\n"}
+[7.279604] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/camera_recorder_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.280166] (camera_recorder_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/camera_recorder_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[7.280528] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/camera_recorder_ros_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.281089] (camera_recorder_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/camera_recorder_ros_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[7.281446] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/camera_recorder_ros_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.281787] (camera_recorder_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/brl/ros2_ws/install/camera_recorder_ros/local/lib/python3.10/dist-packages/camera_recorder_ros/camera_recorder_ros_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[7.282135] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/lib/libcamera_recorder_ros__rosidl_generator_py.so\n'}
+[7.282428] (camera_recorder_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/brl/ros2_ws/install/camera_recorder_ros/lib/libcamera_recorder_ros__rosidl_generator_py.so" to ""\n'}
+[7.282725] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/srv/StartRecording.idl\n'}
+[7.283026] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/srv/StartRecording.srv\n'}
+[7.283307] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/srv/StartRecording_Request.msg\n'}
+[7.283692] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/srv/StartRecording_Response.msg\n'}
+[7.283984] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/lib/python3.10/site-packages/camera_recorder_ros\n'}
+[7.284304] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/lib/python3.10/site-packages/camera_recorder_ros/msg\n'}
+[7.284592] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/lib/python3.10/site-packages/camera_recorder_ros/camera_recorder.py\n'}
+[7.284886] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/lib/python3.10/site-packages/camera_recorder_ros/__init__.py\n'}
+[7.285169] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros//launch\n'}
+[7.285453] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros//launch/camera_recorder.launch.py\n'}
+[7.285745] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/lib/camera_recorder_ros/camera_recorder_node\n'}
+[7.286031] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/lib/camera_recorder_ros/camera_recorder_service_node\n'}
+[7.286318] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/ament_index/resource_index/package_run_dependencies/camera_recorder_ros\n'}
+[7.286608] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/ament_index/resource_index/parent_prefix_path/camera_recorder_ros\n'}
+[7.286883] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/environment/ament_prefix_path.sh\n'}
+[7.287237] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/environment/ament_prefix_path.dsv\n'}
+[7.287531] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/environment/path.sh\n'}
+[7.287824] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/environment/path.dsv\n'}
+[7.288082] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/local_setup.bash\n'}
+[7.288375] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/local_setup.sh\n'}
+[7.288652] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/local_setup.zsh\n'}
+[7.288926] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/local_setup.dsv\n'}
+[7.289206] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/package.dsv\n'}
+[7.289461] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/ament_index/resource_index/packages/camera_recorder_ros\n'}
+[7.289696] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/export_camera_recorder_ros__rosidl_generator_cExport.cmake\n'}
+[7.289977] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/export_camera_recorder_ros__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.290265] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/export_camera_recorder_ros__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.290547] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/export_camera_recorder_ros__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.290830] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/export_camera_recorder_ros__rosidl_generator_cppExport.cmake\n'}
+[7.291154] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/export_camera_recorder_ros__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.291458] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/export_camera_recorder_ros__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.291834] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/camera_recorder_ros__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.292126] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/camera_recorder_ros__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.292416] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/camera_recorder_ros__rosidl_typesupport_cExport.cmake\n'}
+[7.292701] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/camera_recorder_ros__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.292999] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/camera_recorder_ros__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.293283] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/camera_recorder_ros__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.293563] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/camera_recorder_ros__rosidl_typesupport_cppExport.cmake\n'}
+[7.293855] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/camera_recorder_ros__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.294142] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/export_camera_recorder_ros__rosidl_generator_pyExport.cmake\n'}
+[7.294434] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/export_camera_recorder_ros__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.294715] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/rosidl_cmake-extras.cmake\n'}
+[7.295045] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.295371] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.295615] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.295847] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.296086] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.296349] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.296578] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/camera_recorder_rosConfig.cmake\n'}
+[7.296809] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/cmake/camera_recorder_rosConfig-version.cmake\n'}
+[7.297037] (camera_recorder_ros) StdoutLine: {'line': b'-- Installing: /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/package.xml\n'}
+[7.300653] (camera_recorder_ros) CommandEnded: {'returncode': 0}
+[7.328256] (-) TimerEvent: {}
+[7.429042] (-) TimerEvent: {}
+[7.501204] (camera_recorder_ros) JobEnded: {'identifier': 'camera_recorder_ros', 'rc': 0}
+[7.503711] (-) EventReactorShutdown: {}

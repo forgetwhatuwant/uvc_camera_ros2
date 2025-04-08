@@ -1,0 +1,12 @@
+source;share/camera_recorder/hook/path.ps1
+source;share/camera_recorder/hook/path.dsv
+source;share/camera_recorder/hook/path.sh
+source;share/camera_recorder/hook/pythonpath.ps1
+source;share/camera_recorder/hook/pythonpath.dsv
+source;share/camera_recorder/hook/pythonpath.sh
+source;share/camera_recorder/hook/pythonscriptspath.ps1
+source;share/camera_recorder/hook/pythonscriptspath.dsv
+source;share/camera_recorder/hook/pythonscriptspath.sh
+source;share/camera_recorder/hook/ament_prefix_path.ps1
+source;share/camera_recorder/hook/ament_prefix_path.dsv
+source;share/camera_recorder/hook/ament_prefix_path.sh

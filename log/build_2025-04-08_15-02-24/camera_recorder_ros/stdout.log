@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating camera_recorder_ros.egg-info
+writing camera_recorder_ros.egg-info/PKG-INFO
+writing dependency_links to camera_recorder_ros.egg-info/dependency_links.txt
+writing entry points to camera_recorder_ros.egg-info/entry_points.txt
+writing requirements to camera_recorder_ros.egg-info/requires.txt
+writing top-level names to camera_recorder_ros.egg-info/top_level.txt
+writing manifest file 'camera_recorder_ros.egg-info/SOURCES.txt'
+reading manifest file 'camera_recorder_ros.egg-info/SOURCES.txt'
+writing manifest file 'camera_recorder_ros.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/brl/ros2_ws/install/camera_recorder_ros/lib/python3.10/site-packages/camera-recorder-ros.egg-link (link to .)
+Installing camera_recorder_node script to /home/brl/ros2_ws/install/camera_recorder_ros/lib/camera_recorder_ros
+Installing camera_recorder_service_node script to /home/brl/ros2_ws/install/camera_recorder_ros/lib/camera_recorder_ros
+
+Installed /home/brl/ros2_ws/build/camera_recorder_ros
+running symlink_data
+creating /home/brl/ros2_ws/install/camera_recorder_ros/share/ament_index
+creating /home/brl/ros2_ws/install/camera_recorder_ros/share/ament_index/resource_index
+creating /home/brl/ros2_ws/install/camera_recorder_ros/share/ament_index/resource_index/packages
+symbolically linking /home/brl/ros2_ws/build/camera_recorder_ros/resource/camera_recorder_ros -> /home/brl/ros2_ws/install/camera_recorder_ros/share/ament_index/resource_index/packages
+symbolically linking /home/brl/ros2_ws/build/camera_recorder_ros/package.xml -> /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros
+creating /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/launch
+symbolically linking /home/brl/ros2_ws/build/camera_recorder_ros/launch/camera_recorder.launch.py -> /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/launch

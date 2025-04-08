@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000989] (camera_recorder_ros) JobQueued: {'identifier': 'camera_recorder_ros', 'dependencies': OrderedDict()}
+[0.001292] (camera_recorder_ros) JobStarted: {'identifier': 'camera_recorder_ros'}
+[0.099373] (-) TimerEvent: {}
+[0.199931] (-) TimerEvent: {}
+[0.300485] (-) TimerEvent: {}
+[0.401483] (-) TimerEvent: {}
+[0.501955] (-) TimerEvent: {}
+[0.602516] (-) TimerEvent: {}
+[0.703071] (-) TimerEvent: {}
+[0.803632] (-) TimerEvent: {}
+[0.904157] (-) TimerEvent: {}
+[1.004694] (-) TimerEvent: {}
+[1.105225] (-) TimerEvent: {}
+[1.205744] (-) TimerEvent: {}
+[1.306310] (-) TimerEvent: {}
+[1.336503] (camera_recorder_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/camera_recorder_ros', 'build', '--build-base', '/home/brl/ros2_ws/build/camera_recorder_ros/build', 'install', '--record', '/home/brl/ros2_ws/build/camera_recorder_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/brl/ros2_ws/src/camera_recorder_ros', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'brl', 'SSH_CLIENT': '192.168.3.69 60974 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/brl/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/local/cuda-12.2/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:', 'BROWSER': '/home/brl/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/brl', 'TERM_PROGRAM_VERSION': '0.48.7', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-22349582-8582-472b-a365-8ea4328a4f91.sock', 'JETSON_L4T': '36.3.0', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/home/brl/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](torch) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/brl/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/node', 'LC_CTYPE': 'UTF-8', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'brl', 'JETSON_MODULE': 'NVIDIA Jetson Orin NX (16GB ram)', 'JETSON_SERIAL_NUMBER': '1420424254349', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '238', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/brl/codes/torch/bin:/usr/local/cuda-12.2/bin:/home/brl/.cursor-server/cli/servers/Stable-1d623c4cc1d3bb6e0fe4f1d5434b47b958b05870/server/bin/remote-cli:/home/brl/.local/bin:/home/brl/codes/torch/bin:/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/brl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'VIRTUAL_ENV_PROMPT': '(torch)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2fa6d3b66b.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'GST_PLUGIN_PATH': '/usr/lib/aarch64-linux-gnu/gstreamer-1.0/', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VIRTUAL_ENV': '/home/brl/codes/torch', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/brl/ros2_ws/build/camera_recorder_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.3.69 60974 192.168.3.153 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/brl/ros2_ws/build/camera_recorder_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brl/ros2_ws/install/camera_recorder_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '6.0', 'JETSON_P_NUMBER': 'p3767-0000'}, 'shell': False}
+[1.406459] (-) TimerEvent: {}
+[1.507014] (-) TimerEvent: {}
+[1.608457] (-) TimerEvent: {}
+[1.709081] (-) TimerEvent: {}
+[1.791277] (camera_recorder_ros) StdoutLine: {'line': b'running egg_info\n'}
+[1.809212] (-) TimerEvent: {}
+[1.818766] (camera_recorder_ros) StdoutLine: {'line': b'writing ../../build/camera_recorder_ros/camera_recorder_ros.egg-info/PKG-INFO\n'}
+[1.819818] (camera_recorder_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/camera_recorder_ros/camera_recorder_ros.egg-info/dependency_links.txt\n'}
+[1.820216] (camera_recorder_ros) StdoutLine: {'line': b'writing entry points to ../../build/camera_recorder_ros/camera_recorder_ros.egg-info/entry_points.txt\n'}
+[1.820538] (camera_recorder_ros) StdoutLine: {'line': b'writing requirements to ../../build/camera_recorder_ros/camera_recorder_ros.egg-info/requires.txt\n'}
+[1.820778] (camera_recorder_ros) StdoutLine: {'line': b'writing top-level names to ../../build/camera_recorder_ros/camera_recorder_ros.egg-info/top_level.txt\n'}
+[1.877046] (camera_recorder_ros) StdoutLine: {'line': b"reading manifest file '../../build/camera_recorder_ros/camera_recorder_ros.egg-info/SOURCES.txt'\n"}
+[1.878649] (camera_recorder_ros) StdoutLine: {'line': b"writing manifest file '../../build/camera_recorder_ros/camera_recorder_ros.egg-info/SOURCES.txt'\n"}
+[1.879231] (camera_recorder_ros) StdoutLine: {'line': b'running build\n'}
+[1.879650] (camera_recorder_ros) StdoutLine: {'line': b'running build_py\n'}
+[1.879929] (camera_recorder_ros) StdoutLine: {'line': b'copying camera_recorder_ros/camera_recorder_node.py -> /home/brl/ros2_ws/build/camera_recorder_ros/build/lib/camera_recorder_ros\n'}
+[1.880275] (camera_recorder_ros) StdoutLine: {'line': b'copying camera_recorder_ros/camera_recorder_service_node.py -> /home/brl/ros2_ws/build/camera_recorder_ros/build/lib/camera_recorder_ros\n'}
+[1.880598] (camera_recorder_ros) StdoutLine: {'line': b'copying camera_recorder_ros/camera_recorder.py -> /home/brl/ros2_ws/build/camera_recorder_ros/build/lib/camera_recorder_ros\n'}
+[1.880940] (camera_recorder_ros) StdoutLine: {'line': b'copying camera_recorder_ros/__init__.py -> /home/brl/ros2_ws/build/camera_recorder_ros/build/lib/camera_recorder_ros\n'}
+[1.881425] (camera_recorder_ros) StdoutLine: {'line': b'running install\n'}
+[1.890701] (camera_recorder_ros) StdoutLine: {'line': b'running install_lib\n'}
+[1.909313] (-) TimerEvent: {}
+[1.919241] (camera_recorder_ros) StdoutLine: {'line': b'copying /home/brl/ros2_ws/build/camera_recorder_ros/build/lib/camera_recorder_ros/camera_recorder_service_node.py -> /home/brl/ros2_ws/install/camera_recorder_ros/lib/python3.10/site-packages/camera_recorder_ros\n'}
+[1.920345] (camera_recorder_ros) StdoutLine: {'line': b'byte-compiling /home/brl/ros2_ws/install/camera_recorder_ros/lib/python3.10/site-packages/camera_recorder_ros/camera_recorder_service_node.py to camera_recorder_service_node.cpython-310.pyc\n'}
+[1.923215] (camera_recorder_ros) StdoutLine: {'line': b'running install_data\n'}
+[1.923776] (camera_recorder_ros) StdoutLine: {'line': b'copying resource/camera_recorder_ros -> /home/brl/ros2_ws/install/camera_recorder_ros/share/ament_index/resource_index/packages\n'}
+[1.924160] (camera_recorder_ros) StdoutLine: {'line': b'copying package.xml -> /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros\n'}
+[1.924530] (camera_recorder_ros) StdoutLine: {'line': b'copying launch/camera_recorder.launch.py -> /home/brl/ros2_ws/install/camera_recorder_ros/share/camera_recorder_ros/launch\n'}
+[1.924804] (camera_recorder_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.954529] (camera_recorder_ros) StdoutLine: {'line': b"removing '/home/brl/ros2_ws/install/camera_recorder_ros/lib/python3.10/site-packages/camera_recorder_ros-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[1.955299] (camera_recorder_ros) StdoutLine: {'line': b'Copying ../../build/camera_recorder_ros/camera_recorder_ros.egg-info to /home/brl/ros2_ws/install/camera_recorder_ros/lib/python3.10/site-packages/camera_recorder_ros-0.1.0-py3.10.egg-info\n'}
+[1.957461] (camera_recorder_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[2.009456] (-) TimerEvent: {}
+[2.110112] (-) TimerEvent: {}
+[2.210724] (-) TimerEvent: {}
+[2.217891] (camera_recorder_ros) StdoutLine: {'line': b'Installing camera_recorder_node script to /home/brl/ros2_ws/install/camera_recorder_ros/lib/camera_recorder_ros\n'}
+[2.218396] (camera_recorder_ros) StdoutLine: {'line': b'Installing camera_recorder_service_node script to /home/brl/ros2_ws/install/camera_recorder_ros/lib/camera_recorder_ros\n'}
+[2.219061] (camera_recorder_ros) StdoutLine: {'line': b"writing list of installed files to '/home/brl/ros2_ws/build/camera_recorder_ros/install.log'\n"}
+[2.298507] (camera_recorder_ros) CommandEnded: {'returncode': 0}
+[2.310866] (-) TimerEvent: {}
+[2.337224] (camera_recorder_ros) JobEnded: {'identifier': 'camera_recorder_ros', 'rc': 0}
+[2.339730] (-) EventReactorShutdown: {}

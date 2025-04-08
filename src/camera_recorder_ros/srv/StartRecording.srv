@@ -1,0 +1,4 @@
+int32[] camera_ids
+---
+bool success
+string message 

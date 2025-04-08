@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: camera_recorder
+Version: 0.1.0
+Summary: ROS2 package for recording multiple USB cameras
+Maintainer: user
+Maintainer-email: user@example.com
+License: Apache License 2.0
+Requires-Dist: setuptools

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+camera_recorder_ros/__init__.py
+camera_recorder_ros/camera_recorder.py
+camera_recorder_ros/camera_recorder_node.py
+camera_recorder_ros/camera_recorder_service_node.py
+camera_recorder_ros.egg-info/PKG-INFO
+camera_recorder_ros.egg-info/SOURCES.txt
+camera_recorder_ros.egg-info/dependency_links.txt
+camera_recorder_ros.egg-info/entry_points.txt
+camera_recorder_ros.egg-info/requires.txt
+camera_recorder_ros.egg-info/top_level.txt
+camera_recorder_ros.egg-info/zip-safe
+launch/camera_recorder.launch.py
+resource/camera_recorder_ros

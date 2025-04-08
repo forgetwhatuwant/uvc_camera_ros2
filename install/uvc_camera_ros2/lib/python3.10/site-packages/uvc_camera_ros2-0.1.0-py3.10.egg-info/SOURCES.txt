@@ -1,0 +1,15 @@
+README.md
+package.xml
+setup.py
+../../build/uvc_camera_ros2/uvc_camera_ros2.egg-info/PKG-INFO
+../../build/uvc_camera_ros2/uvc_camera_ros2.egg-info/SOURCES.txt
+../../build/uvc_camera_ros2/uvc_camera_ros2.egg-info/dependency_links.txt
+../../build/uvc_camera_ros2/uvc_camera_ros2.egg-info/entry_points.txt
+../../build/uvc_camera_ros2/uvc_camera_ros2.egg-info/requires.txt
+../../build/uvc_camera_ros2/uvc_camera_ros2.egg-info/top_level.txt
+../../build/uvc_camera_ros2/uvc_camera_ros2.egg-info/zip-safe
+launch/camera_recorder.launch.py
+resource/uvc_camera_ros2
+uvc_camera_ros2/__init__.py
+uvc_camera_ros2/camera_recorder.py
+uvc_camera_ros2/camera_recorder_node.py

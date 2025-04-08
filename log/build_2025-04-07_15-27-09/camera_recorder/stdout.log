@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/camera_recorder/camera_recorder.egg-info
+writing ../../build/camera_recorder/camera_recorder.egg-info/PKG-INFO
+writing dependency_links to ../../build/camera_recorder/camera_recorder.egg-info/dependency_links.txt
+writing entry points to ../../build/camera_recorder/camera_recorder.egg-info/entry_points.txt
+writing requirements to ../../build/camera_recorder/camera_recorder.egg-info/requires.txt
+writing top-level names to ../../build/camera_recorder/camera_recorder.egg-info/top_level.txt
+writing manifest file '../../build/camera_recorder/camera_recorder.egg-info/SOURCES.txt'
+reading manifest file '../../build/camera_recorder/camera_recorder.egg-info/SOURCES.txt'
+writing manifest file '../../build/camera_recorder/camera_recorder.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/brl/ros2_ws/build/camera_recorder/build
+creating /home/brl/ros2_ws/build/camera_recorder/build/lib
+creating /home/brl/ros2_ws/build/camera_recorder/build/lib/camera_recorder
+copying camera_recorder/camera_recorder_node.py -> /home/brl/ros2_ws/build/camera_recorder/build/lib/camera_recorder
+copying camera_recorder/camera_recorder.py -> /home/brl/ros2_ws/build/camera_recorder/build/lib/camera_recorder
+copying camera_recorder/__init__.py -> /home/brl/ros2_ws/build/camera_recorder/build/lib/camera_recorder
+running install
+running install_lib
+creating /home/brl/ros2_ws/install/camera_recorder/lib/python3.10/site-packages/camera_recorder
+copying /home/brl/ros2_ws/build/camera_recorder/build/lib/camera_recorder/camera_recorder_node.py -> /home/brl/ros2_ws/install/camera_recorder/lib/python3.10/site-packages/camera_recorder
+copying /home/brl/ros2_ws/build/camera_recorder/build/lib/camera_recorder/camera_recorder.py -> /home/brl/ros2_ws/install/camera_recorder/lib/python3.10/site-packages/camera_recorder
+copying /home/brl/ros2_ws/build/camera_recorder/build/lib/camera_recorder/__init__.py -> /home/brl/ros2_ws/install/camera_recorder/lib/python3.10/site-packages/camera_recorder
+byte-compiling /home/brl/ros2_ws/install/camera_recorder/lib/python3.10/site-packages/camera_recorder/camera_recorder_node.py to camera_recorder_node.cpython-310.pyc
+byte-compiling /home/brl/ros2_ws/install/camera_recorder/lib/python3.10/site-packages/camera_recorder/camera_recorder.py to camera_recorder.cpython-310.pyc
+byte-compiling /home/brl/ros2_ws/install/camera_recorder/lib/python3.10/site-packages/camera_recorder/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/brl/ros2_ws/install/camera_recorder/share/ament_index
+creating /home/brl/ros2_ws/install/camera_recorder/share/ament_index/resource_index
+creating /home/brl/ros2_ws/install/camera_recorder/share/ament_index/resource_index/packages
+copying resource/camera_recorder -> /home/brl/ros2_ws/install/camera_recorder/share/ament_index/resource_index/packages
+copying package.xml -> /home/brl/ros2_ws/install/camera_recorder/share/camera_recorder
+creating /home/brl/ros2_ws/install/camera_recorder/share/camera_recorder/launch
+copying launch/camera_recorder.launch.py -> /home/brl/ros2_ws/install/camera_recorder/share/camera_recorder/launch
+running install_egg_info
+Copying ../../build/camera_recorder/camera_recorder.egg-info to /home/brl/ros2_ws/install/camera_recorder/lib/python3.10/site-packages/camera_recorder-0.1.0-py3.10.egg-info
+running install_scripts
+Installing camera_recorder_node script to /home/brl/ros2_ws/install/camera_recorder/bin
+writing list of installed files to '/home/brl/ros2_ws/build/camera_recorder/install.log'

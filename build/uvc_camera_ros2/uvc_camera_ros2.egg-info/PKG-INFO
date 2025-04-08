@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: uvc_camera_ros2
+Version: 0.1.0
+Summary: ROS2 package for UVC camera recording and control
+Maintainer: user
+Maintainer-email: user@example.com
+License: Apache License 2.0
+Requires-Dist: setuptools
